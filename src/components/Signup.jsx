@@ -59,7 +59,6 @@ class Signup extends React.Component {
         this.setState({ loading: true });
         try {
             await Auth.confirmSignUp(username, confirmationCode);
-
             this.setState({ loading: false });
             window.location = '/login';
         } catch (error) {

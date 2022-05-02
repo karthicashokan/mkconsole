@@ -75,6 +75,8 @@ class Login extends React.Component {
                 .then(() => {
                     // don't forget to set TOTP as the preferred MFA method
                     Auth.setPreferredMFA(user, 'TOTP');
+                    this.props.notify('Successfully logged in');
+                    window.location = '/home';
                 })
                 .catch((err) => {
                     if (err.code === 'EnableSoftwareTokenMFAException') {

@@ -70,7 +70,6 @@ class CreateApp extends React.Component {
         const { name, chain } = this.state;
         const { user, notify } = this.props;
         const jwtToken = user?.signInUserSession?.idToken?.jwtToken;
-        console.log('jwtToken', jwtToken);
         // Step 1: name is mandatory
         if (!name || name.length === 0) {
             this.setState({ nameError: true });
@@ -186,6 +185,7 @@ class CreateApp extends React.Component {
                             Applications
                         </Typography><br/>
                         {this.existingApplications}
+                        {this.existingApplications.length === 0 && <p>No applications found. Use the form below to create your first application</p>}
                     </form>
                 </div>
                 <div className="mkcard">
