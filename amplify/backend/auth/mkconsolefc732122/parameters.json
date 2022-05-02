@@ -1,0 +1,23 @@
+{
+  "authSelections": "userPoolOnly",
+  "resourceName": "mkconsolefc732122",
+  "serviceType": "imported",
+  "region": "us-east-2",
+  "requiredAttributes": [
+    "email"
+  ],
+  "passwordPolicyMinLength": 8,
+  "passwordPolicyCharacters": [
+    "Requires Lowercase",
+    "Requires Uppercase",
+    "Requires Numbers",
+    "Requires Symbols"
+  ],
+  "mfaConfiguration": "ON",
+  "autoVerifiedAttributes": [
+    "email"
+  ],
+  "mfaTypes": [
+    "TOTP"
+  ]
+}

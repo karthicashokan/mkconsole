@@ -1,0 +1,9 @@
+{
+  "aws": {
+    "region": "us-east-2",
+    "cognitoPool": {
+      "UserPoolId": "us-east-2_Jh2BFUbCW",
+      "ClientId": "4kamim59922i24d069rq7u8utf"
+    }
+  }
+}
