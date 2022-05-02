@@ -30,5 +30,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 | page | image |
 | --- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Home (not-logged in) | ![localhost_3006_home(iPad Pro)](https://user-images.githubusercontent.com/8691395/166206686-5d325b46-86be-450d-bf6b-a3a90775b618.png) |
+| Home (Logged in) | ![image](https://user-images.githubusercontent.com/8691395/166206754-aca1c088-f925-4f69-b8a9-7bade36ba4dc.png) |
+| ParaLogingraph | Text |
