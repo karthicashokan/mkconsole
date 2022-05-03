@@ -1,12 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +10,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,42 +25,16 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Pages
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| page | image |
+| --- | ----------- |
+| Home (not-logged in) | ![localhost_3006_home(iPad Pro)](https://user-images.githubusercontent.com/8691395/166206686-5d325b46-86be-450d-bf6b-a3a90775b618.png) |
+| Home (Logged in) | ![image](https://user-images.githubusercontent.com/8691395/166206754-aca1c088-f925-4f69-b8a9-7bade36ba4dc.png) |
+| Home (Logged in, With a few applications) | ![image](https://user-images.githubusercontent.com/8691395/166206819-9f8d546c-bb7b-4d38-8da1-f72ccabecf5c.png) |
+| Login | ![image](https://user-images.githubusercontent.com/8691395/166206886-ca89890a-c27d-4fff-b8e8-4d05b280f238.png) |
+| Login verify code- | ![image](https://user-images.githubusercontent.com/8691395/166206937-ded2961f-e2f3-4b26-9d86-24dc75c3f8c4.png) |
+| Signup | ![image](https://user-images.githubusercontent.com/8691395/166206914-3aa19714-6ed1-41f1-9ff4-b926e3793c83.png) |
+| Signup Register TOTP | ![image](https://user-images.githubusercontent.com/8691395/166207194-fa7dd582-9717-4903-8365-da1622221938.png) |
+| Logout | ![localhost_3006_logout(iPad Pro)](https://user-images.githubusercontent.com/8691395/166206862-815c4e44-5613-4293-8f85-b163c52b5311.png) |
