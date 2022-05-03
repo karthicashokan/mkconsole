@@ -113,6 +113,9 @@ class CreateApp extends React.Component {
             /* Update button text */
             e.target.innerHTML = 'Copied';
         };
+
+        const appIdElementKey = `application-id$-{item.id}`;
+        const appSecretElementKey = `application-secret-${item.id}`;
         return (
             <Card sx={{ maxWidth: 660 }} variant="outlined" key={item.id}>
                 <CardContent>
@@ -122,7 +125,7 @@ class CreateApp extends React.Component {
                     <FormGroup row>
                         <TextField
                             size="small"
-                            id="application-id"
+                            id={appIdElementKey}
                             label="Application Id"
                             type='text'
                             defaultValue={item.id}
@@ -133,7 +136,7 @@ class CreateApp extends React.Component {
                         />
                         <Button
                             onClick={(e) => {
-                                copyToClipboard(e, 'application-id');
+                                copyToClipboard(e, appIdElementKey);
                             }}
                             size="small"
                             variant="contained"
@@ -144,7 +147,7 @@ class CreateApp extends React.Component {
                     <FormGroup row>
                         <TextField
                             size="small"
-                            id="application-secret"
+                            id={appSecretElementKey}
                             label="Application Secret"
                             type='text'
                             defaultValue={item.secret}
@@ -155,7 +158,7 @@ class CreateApp extends React.Component {
                         />
                         <Button
                             onClick={(e) => {
-                                copyToClipboard(e, 'application-secret')
+                                copyToClipboard(e, appSecretElementKey)
                             }}
                             size="small"
                             variant="contained"
